@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+/*
+ *下载的导航栏所用到css
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; font-family:"微软雅黑"}
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+ol, ul { list-style: none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input:focus, textarea:focus, select:focus { outline: none; }
+select, input { vertical-align: middle; }
+legend { color: #000; }
+.clean:before, .clean:after, .clearfix:before, .clearfix:after { content: ""; display: table; }
+.clean:after, .clearfix:after { clear: both; }
+.clean, .clearfix { zoom: 1; }
+.clear { clear: both; }
+.fl { float: left; }
+.fr { float: right; }
+.break { word-wrap: break-word; width: inherit; }
+.linkhidden { text-indent: -9999em; overflow: hidden; }
+.hidden { display: none; }
+a{ text-decoration:none;}
+/*
+ *输入框
+ */
+.button, .button:active, .input{background: #eee;border:2px double #666;padding:2px 5px;color:#666;}
+.button:hover{background: #666;border:2px double #eee;padding:2px 5px;color:#eee;}
+.input{border-radius:5px;border:none;}
+.checkbox{width: 20px;height: 20px;}
+.spanLink{font-size:13px;}
+.pageLink, .pageLink:active{float:left;background: #fff;border-left:1px double #333;padding:0px 5px;color:#333;}
+.pageLink:hover{background: #333;border-left:1px double #eee;padding:0px 5px;color:#eee;}
+.radio{outline: none;-webkit-appearance: none; /* remove default */
+	width: 20px;height: 20px;border-radius: 12px;cursor: pointer;vertical-align: middle;
+	box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;background-color: #666;
+	background-image: -webkit-radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );
+	background-repeat: no-repeat;-webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),-webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
+}
+.radio:checked {-webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),-webkit-transform .25s cubic-bezier(0, 0, .2, 1);}
+.radio:active {-webkit-transform: scale(1.5);-webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);}
+/* The up/down direction logic */
+.radio,.radio:active {background-position: 0 24px;}
+.radio:checked ~ input,.radio:checked ~ input:active {background-position: 0 -24px}
+.radio:checked {background-position: 0 0;}

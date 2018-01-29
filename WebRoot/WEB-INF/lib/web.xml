@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_param_system</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_param_system</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_data_list</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_data_list</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_len_unit</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_len_unit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_a_schedule</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_a_schedule</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_data_list_2</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_data_list_2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_data_list_3</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_data_list_3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_data_list_4</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_data_list_4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_b_machine</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_b_machine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_b_data_list</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_b_data_list</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_c_unitChange</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_c_unitChange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_c_data_list</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_c_data_list</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_d_restore</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_d_restore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_d_data_list</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_d_data_list</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_d_data_list_2</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_d_data_list_2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_working_schedule</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_working_schedule</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Servlet_param_system</servlet-name>
+    <url-pattern>/servlet/Servlet_param_system</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_data_list</servlet-name>
+    <url-pattern>/servlet/Servlet_data_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_len_unit</servlet-name>
+    <url-pattern>/servlet/Servlet_len_unit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_a_schedule</servlet-name>
+    <url-pattern>/servlet/Servlet_a_schedule</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_data_list_2</servlet-name>
+    <url-pattern>/servlet/Servlet_data_list_2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_data_list_3</servlet-name>
+    <url-pattern>/servlet/Servlet_data_list_3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_data_list_4</servlet-name>
+    <url-pattern>/servlet/Servlet_data_list_4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_b_machine</servlet-name>
+    <url-pattern>/servlet/Servlet_b_machine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_b_data_list</servlet-name>
+    <url-pattern>/servlet/Servlet_b_data_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_c_unitChange</servlet-name>
+    <url-pattern>/servlet/Servlet_c_unitChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_c_data_list</servlet-name>
+    <url-pattern>/servlet/Servlet_c_data_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_d_restore</servlet-name>
+    <url-pattern>/servlet/Servlet_d_restore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_d_data_list</servlet-name>
+    <url-pattern>/servlet/Servlet_d_data_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_d_data_list_2</servlet-name>
+    <url-pattern>/servlet/Servlet_d_data_list_2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_working_schedule</servlet-name>
+    <url-pattern>/servlet/Servlet_working_schedule</url-pattern>
+  </servlet-mapping>
+
+
+    <servlet>
+    <servlet-name>DisplayChart</servlet-name>
+    <servlet-class>
+        org.jfree.chart.servlet.DisplayChart   <!--这个固定不变-->
+    </servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DisplayChart</servlet-name>
+        <url-pattern>/DisplayChart</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_machine</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_machine</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_system</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_system</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_messageList</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_messageList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_plan</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_plan</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Servlet_machine</servlet-name>
+    <url-pattern>/servlet/Servlet_machine</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_system</servlet-name>
+    <url-pattern>/servlet/Servlet_system</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_messageList</servlet-name>
+    <url-pattern>/servlet/Servlet_messageList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_plan</servlet-name>
+    <url-pattern>/servlet/Servlet_plan</url-pattern>
+  </servlet-mapping>
+
+	<servlet>
+    <servlet-name>DisplayChart</servlet-name>
+    <servlet-class>
+        org.jfree.chart.servlet.DisplayChart   <!--这个固定不变-->
+    </servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Servlet_unit</servlet-name>
+    <servlet-class>lk.ysu.workingschedule.servlet.Servlet_unit</servlet-class>
+  </servlet>
+
+    
+    <servlet-mapping>
+        <servlet-name>DisplayChart</servlet-name>
+        <url-pattern>/DisplayChart</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Servlet_unit</servlet-name>
+    <url-pattern>/servlet/Servlet_unit</url-pattern>
+  </servlet-mapping>
+</web-app>
